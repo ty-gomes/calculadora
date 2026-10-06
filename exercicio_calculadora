@@ -1,5 +1,3 @@
-# calculadora
-
 def somar(a, b):
     return a + b
 
@@ -24,7 +22,7 @@ def exibir():
     print("5. Sair")
 
 while True:
-    exibir_menu()
+    exibir()
 
     opcao = input("Escolha uma opção (1-5): ")
 
